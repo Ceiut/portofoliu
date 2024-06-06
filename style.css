@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "VT323", sans-serif ;
+}
+
+section{
+    height: 100vh;
+    display: flex;
+}
+body{
+    background-color: darkslategray;
+}
+.navi {
+    background-color: wheat;
+    height: 8vh;
+    width: calc(100% - 4vh); /* Leave space from the margins */
+    margin: 2vh auto 0 auto; /* Center horizontally and add top margin */
+    text-decoration: none;
+    font-family: "VT323", sans-serif;
+    border-radius: 14px 14px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vh; /* Add padding for space between content */
+}
+a{
+    font-size: 5vh;
+    text-decoration-line:none;
+    color: black;
+    animation: ease-in 2s;
+    
+}
+
+
+a:hover{
+    text-decoration-line: line-through;
+    background-color:rgba(128, 128, 128, 0.4);
+    
+    
+}
+.links {
+    padding-top: 1.2vh;
+
+    width: 55vh;
+    
+    word-spacing: 0.2vh;
+    justify-content: center;
+    position: fixed;
+}
+
+
+
+.blue{
+    margin-left:185vh ;
+    background-color: blue;
+    height: 3vh;
+    width: 3vh;
+    margin-top:1.5vh;
+    border-radius: 90px 90px 90px 90px;
+}
+
+.yellow{
+    background-color: yellow;
+    height: 3vh;
+    width: 3vh; 
+    margin-left: 2vh;
+    margin-top: 1.5vh;
+    border-radius: 90px 90px 90px 90px;
+}
+
+
+.red{
+    background-color: red;
+    height: 3vh;
+    width: 3vh; 
+    margin-left: 2vh;
+    margin-top: 1.5vh;
+    border-radius: 90px 90px 90px 90px;
+}
+.sep {
+    background-color: black;
+    height: 0.5vh;
+    width: calc(100% - 4vh); 
+    margin: 0 auto;
+}
+.pc{
+    background-image: url(pc2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 88vh;
+    width: calc(100% - 4vh);
+    margin: 0 auto;
+    border-radius: 0px 0px 16px 16px;
+
+}
+.note{
+    background-color: whitesmoke;
+    height: 50vh;
+    width: 50vh;
+    margin-left: 75vh;
+    margin-to
+}
+.txt{
+    background-image: url(abt.svg);
+    background-size: cover;
+    background-color: transparent;
+    border: none;
+    height: 16vh;
+    width: 20vh;
+
+    margin-left: 190vh;
+    
+}
+.text{
+    font-size: 2.8vh;
+    margin-left:195.3vh;
+    
+}
